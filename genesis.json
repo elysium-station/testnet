@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-05-23T07:30:14.424606749Z",
+  "genesis_time": "2023-05-23T09:19:11.846600773Z",
   "chain_id": "clockend_4200-101",
   "initial_height": "1",
   "consensus_params": {
@@ -34,7 +34,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "black1cr6tg4cjvux00pj6zjqkh6d0jzg7mksaksxgnt",
+            "address": "black1hsf23x7e2fzc0lyfq03gzav46hz4vgg6nrlvlg",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -44,7 +44,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "black1ywps7lrfjm8cww04pt9xad494u8qwhvd8l88vj",
+            "address": "black1tzegqeq3e68g7p4envn38ykgst2r6lme2favaf",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -54,7 +54,77 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "black193c8cz7r8m4nd7h2yw2d25p77ugd3s09ynflyu",
+            "address": "black1ag4x8njzeww34ppfsxnswht6y7na2f37q2mqrh",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black13nj87pd2klzymx2hrsv3esxpvm0q2cvuq2gj98",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black16pjk0w7qlsuf3ludpw6he7fkt4afns2lv7cqtl",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black19jlm77jrr38xxaxqh9rsmds5ttk9typjlmkkr7",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black1zun2g5x8jtrhfdn6w7zdc0jtr4md9xy6v2pelt",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black16a6k3sp3w04zk22t70eh4dwq8ece62369uvnxu",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black1fcq96jt9lsgns9ce8lam6ss43n70r0w6q4jrj0",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black1vnekujljk5lfwt626ulym0tutefnxwkalzq3gn",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -70,7 +140,7 @@
       },
       "balances": [
         {
-          "address": "black1ywps7lrfjm8cww04pt9xad494u8qwhvd8l88vj",
+          "address": "black1hsf23x7e2fzc0lyfq03gzav46hz4vgg6nrlvlg",
           "coins": [
             {
               "denom": "afury",
@@ -79,7 +149,7 @@
           ]
         },
         {
-          "address": "black193c8cz7r8m4nd7h2yw2d25p77ugd3s09ynflyu",
+          "address": "black1tzegqeq3e68g7p4envn38ykgst2r6lme2favaf",
           "coins": [
             {
               "denom": "afury",
@@ -88,7 +158,70 @@
           ]
         },
         {
-          "address": "black1cr6tg4cjvux00pj6zjqkh6d0jzg7mksaksxgnt",
+          "address": "black1ag4x8njzeww34ppfsxnswht6y7na2f37q2mqrh",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black13nj87pd2klzymx2hrsv3esxpvm0q2cvuq2gj98",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black16pjk0w7qlsuf3ludpw6he7fkt4afns2lv7cqtl",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black19jlm77jrr38xxaxqh9rsmds5ttk9typjlmkkr7",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black1zun2g5x8jtrhfdn6w7zdc0jtr4md9xy6v2pelt",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black16a6k3sp3w04zk22t70eh4dwq8ece62369uvnxu",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black1fcq96jt9lsgns9ce8lam6ss43n70r0w6q4jrj0",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black1vnekujljk5lfwt626ulym0tutefnxwkalzq3gn",
           "coins": [
             {
               "denom": "afury",
@@ -100,7 +233,7 @@
       "supply": [
         {
           "denom": "afury",
-          "amount": "15000000000000000000000"
+          "amount": "50000000000000000000000"
         }
       ],
       "denom_metadata": []
@@ -116,7 +249,7 @@
     "crisis": {
       "constant_fee": {
         "denom": "afury",
-        "amount": "1000"
+        "amount": "100000"
       }
     },
     "distribution": {
@@ -189,69 +322,7 @@
       "params": {}
     },
     "genutil": {
-      "gen_txs": [
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "test",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "black1cr6tg4cjvux00pj6zjqkh6d0jzg7mksaksxgnt",
-                "validator_address": "blackvaloper1cr6tg4cjvux00pj6zjqkh6d0jzg7mksa4cwtqw",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "hNdaE+kPyrJTAvosqPvLlAKys3cOxc2Ua1KY6/lJ2Y8="
-                },
-                "value": {
-                  "denom": "afury",
-                  "amount": "100000000000000000000"
-                }
-              }
-            ],
-            "memo": "156cd1286bf54f9664e98e42439ce6313bf45936@10.128.0.50:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "Am5KO+6E3xKiDLQ1qqUpsuLoHzVzHmeWk84apFnOCYD1"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
-          },
-          "signatures": [
-            "0g9TpRPkDgLaOVsrmJ9M1mi8cSY9AufGzoCIOUnkYhMLWHYO6YyL/gIvg/71jQi4vLWE8nUthSMdMRTyKF54wgE="
-          ]
-        }
-      ]
+      "gen_txs": []
     },
     "gov": {
       "starting_proposal_id": "1",
