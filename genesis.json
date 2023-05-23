@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2023-05-23T09:19:11.846600773Z",
-  "chain_id": "clockend_4200-101",
+  "genesis_time": "2023-05-23T19:11:41.028545Z",
+  "chain_id": "blackfury_4200-101",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -37,7 +37,7 @@
             "address": "black1hsf23x7e2fzc0lyfq03gzav46hz4vgg6nrlvlg",
             "pub_key": null,
             "account_number": "0",
-            "sequence": "0"
+            "sequence": "1"
           },
           "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
         },
@@ -47,7 +47,7 @@
             "address": "black1fcq96jt9lsgns9ce8lam6ss43n70r0w6q4jrj0",
             "pub_key": null,
             "account_number": "0",
-            "sequence": "0"
+            "sequence": "2"
           },
           "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
         },
@@ -57,7 +57,7 @@
             "address": "black1sf4w24xnz2llencj0j03c4fty0cym9x7rgn42z",
             "pub_key": null,
             "account_number": "0",
-            "sequence": "0"
+            "sequence": "3"
           },
           "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
         },
@@ -67,7 +67,7 @@
             "address": "black16a6k3sp3w04zk22t70eh4dwq8ece62369uvnxu",
             "pub_key": null,
             "account_number": "0",
-            "sequence": "0"
+            "sequence": "4"
           },
           "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
         },
@@ -77,7 +77,7 @@
             "address": "black175c7z3x3j66fdya83n03agems756dezg6pt2n3",
             "pub_key": null,
             "account_number": "0",
-            "sequence": "0"
+            "sequence": "5"
           },
           "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
         },
@@ -87,7 +87,7 @@
             "address": "black1vnekujljk5lfwt626ulym0tutefnxwkalzq3gn",
             "pub_key": null,
             "account_number": "0",
-            "sequence": "0"
+            "sequence": "6"
           },
           "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
         },
@@ -97,7 +97,7 @@
             "address": "black1ahvegqs7mrd6802l4larvh4wj0080shecxlmtc",
             "pub_key": null,
             "account_number": "0",
-            "sequence": "0"
+            "sequence": "7"
           },
           "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
         },
@@ -107,7 +107,7 @@
             "address": "black1e5jn620nwsmje5c6u22nched6zff77vfk2walk",
             "pub_key": null,
             "account_number": "0",
-            "sequence": "0"
+            "sequence": "8"
           },
           "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
         },
@@ -117,7 +117,7 @@
             "address": "black13pqvknn7l9dh0ugqhsrnk744ayhk6huc4wrejk",
             "pub_key": null,
             "account_number": "0",
-            "sequence": "0"
+            "sequence": "9"
           },
           "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
         },
@@ -127,7 +127,7 @@
             "address": "black1lqgwwhymjm92acqahg5xwtf3kxzemm6vsc5r8u",
             "pub_key": null,
             "account_number": "0",
-            "sequence": "0"
+            "sequence": "10"
           },
           "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
         }
@@ -334,13 +334,13 @@
         "min_deposit": [
           {
             "denom": "afury",
-            "amount": "10000000"
+            "amount": "1000000000000000000"
           }
         ],
-        "max_deposit_period": "172800s"
+        "max_deposit_period": "1209600s"
       },
       "voting_params": {
-        "voting_period": "172800s"
+        "voting_period": "60s"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
@@ -383,7 +383,7 @@
     },
     "maker": {
       "params": {
-        "backing_ratio_step": "0.002500000000000000",
+        "backing_ratio_step": "0.000000000000000000",
         "backing_ratio_price_band": "0.005000000000000000",
         "backing_ratio_cooldown_period": "600",
         "mint_price_bias": "0.010000000000000000",
@@ -391,7 +391,7 @@
         "reback_bonus": "0.007500000000000000",
         "liquidation_commission_fee": "0.100000000000000000"
       },
-      "backing_ratio": "1.000000000000000000"
+      "backing_ratio": "0.950000000000000000"
     },
     "mgravity": {},
     "nft": {
@@ -469,8 +469,8 @@
         }
       },
       "allocation_addresses": {
-        "team_vesting_addr": "",
-        "strategic_reserve_custodian_addr": ""
+        "team_vesting_addr": "black1da0c98ev7nrwfmnnc8cmg5daqncpmmllvp8cx7",
+        "strategic_reserve_custodian_addr": "black156mg0wuwrcpx9a24gjqgf4w0vvvpqgjm5mpwj0"
       }
     },
     "voter": {
