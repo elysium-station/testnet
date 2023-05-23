@@ -1,0 +1,480 @@
+{
+  "genesis_time": "2023-05-23T19:11:41.028545Z",
+  "chain_id": "clockend_4200-101",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black1hsf23x7e2fzc0lyfq03gzav46hz4vgg6nrlvlg",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "1"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black1fcq96jt9lsgns9ce8lam6ss43n70r0w6q4jrj0",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "2"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black1sf4w24xnz2llencj0j03c4fty0cym9x7rgn42z",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "3"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black16a6k3sp3w04zk22t70eh4dwq8ece62369uvnxu",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "4"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black175c7z3x3j66fdya83n03agems756dezg6pt2n3",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "5"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black1vnekujljk5lfwt626ulym0tutefnxwkalzq3gn",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "6"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black1ahvegqs7mrd6802l4larvh4wj0080shecxlmtc",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "7"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black1e5jn620nwsmje5c6u22nched6zff77vfk2walk",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "8"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black13pqvknn7l9dh0ugqhsrnk744ayhk6huc4wrejk",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "9"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "black1lqgwwhymjm92acqahg5xwtf3kxzemm6vsc5r8u",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "10"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        }
+      ]
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "black1hsf23x7e2fzc0lyfq03gzav46hz4vgg6nrlvlg",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black1fcq96jt9lsgns9ce8lam6ss43n70r0w6q4jrj0",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black1sf4w24xnz2llencj0j03c4fty0cym9x7rgn42z",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black16a6k3sp3w04zk22t70eh4dwq8ece62369uvnxu",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black175c7z3x3j66fdya83n03agems756dezg6pt2n3",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black1vnekujljk5lfwt626ulym0tutefnxwkalzq3gn",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black1ahvegqs7mrd6802l4larvh4wj0080shecxlmtc",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black1e5jn620nwsmje5c6u22nched6zff77vfk2walk",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black13pqvknn7l9dh0ugqhsrnk744ayhk6huc4wrejk",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "black1lqgwwhymjm92acqahg5xwtf3kxzemm6vsc5r8u",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "afury",
+          "amount": "50000000000000000000000"
+          	
+        }
+      ],
+      "denom_metadata": []
+    },
+    "bech32ibc": {
+      "nativeHRP": "osmo",
+      "hrpIBCRecords": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "afury",
+        "amount": "100000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "erc20": {
+      "params": {},
+      "token_pairs": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "evm": {
+      "accounts": [],
+      "params": {
+        "evm_denom": "afury",
+        "enable_create": true,
+        "enable_call": true,
+        "extra_eips": [],
+        "chain_config": {
+          "homestead_block": "0",
+          "dao_fork_block": "0",
+          "dao_fork_support": true,
+          "eip150_block": "0",
+          "eip150_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "eip155_block": "0",
+          "eip158_block": "0",
+          "byzantium_block": "0",
+          "constantinople_block": "0",
+          "petersburg_block": "0",
+          "istanbul_block": "0",
+          "muir_glacier_block": "0",
+          "berlin_block": "0",
+          "london_block": "0",
+          "arrow_glacier_block": "0",
+          "merge_fork_block": "0"
+        }
+      }
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feemarket": {
+      "params": {
+        "no_base_fee": false,
+        "base_fee_change_denominator": 8,
+        "elasticity_multiplier": 2,
+        "enable_height": "0",
+        "base_fee": "1000000000"
+      },
+      "block_gas": "0"
+    },
+    "gauge": {
+      "params": {}
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "afury",
+            "amount": "1000000000000000000"
+          }
+        ],
+        "max_deposit_period": "1209600s"
+      },
+      "voting_params": {
+        "voting_period": "60s"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "maker": {
+      "params": {
+        "backing_ratio_step": "0.000000000000000000",
+        "backing_ratio_price_band": "0.005000000000000000",
+        "backing_ratio_cooldown_period": "600",
+        "mint_price_bias": "0.010000000000000000",
+        "burn_price_bias": "0.010000000000000000",
+        "reback_bonus": "0.007500000000000000",
+        "liquidation_commission_fee": "0.100000000000000000"
+      },
+      "backing_ratio": "0.950000000000000000"
+    },
+    "mgravity": {},
+    "nft": {
+      "classes": [],
+      "entries": []
+    },
+    "oracle": {
+      "params": {
+        "vote_period": "10",
+        "vote_threshold": "0.500000000000000000",
+        "reward_band": "0.020000000000000000",
+        "reward_distribution_window": "5256000",
+        "slash_fraction": "0.000100000000000000",
+        "slash_window": "100800",
+        "min_valid_per_window": "0.050000000000000000"
+      },
+      "feeder_delegations": [],
+      "exchange_rates": [],
+      "miss_counters": [],
+      "aggregate_exchange_rate_prevotes": [],
+      "aggregate_exchange_rate_votes": []
+    },
+    "params": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "afury"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
+    },
+    "upgrade": {},
+    "ve": {
+      "params": {
+        "lock_denom": "afury"
+      }
+    },
+    "vesting": {
+      "params": {
+        "allocation": {
+          "total_amount": "1000000000000000000000000000",
+          "airdrop_amount": "50000000000000000000000000",
+          "ve_vesting_amount": "450000000000000000000000000",
+          "staking_reward_amount": "50000000000000000000000000",
+          "community_pool_amount": "50000000000000000000000000",
+          "strategic_reserve_amount": "200000000000000000000000000",
+          "team_vesting_amount": "200000000000000000000000000"
+        }
+      },
+      "allocation_addresses": {
+        "team_vesting_addr": "black1da0c98ev7nrwfmnnc8cmg5daqncpmmllvp8cx7",
+        "strategic_reserve_custodian_addr": "black156mg0wuwrcpx9a24gjqgf4w0vvvpqgjm5mpwj0"
+      }
+    },
+    "voter": {
+      "params": {}
+    }
+  }
+}
