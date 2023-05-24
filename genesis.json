@@ -230,7 +230,12 @@
           ]
         }
       ],
-      "supply": [],
+      "supply": [
+      	{
+        "denom": "afury",
+        "amount": "50000000000000000000000"
+      	}
+      ],
       "denom_metadata": []
     },
     "bech32ibc": {
