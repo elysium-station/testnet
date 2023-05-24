@@ -1,7 +1,7 @@
 {
   "genesis_time": "2023-05-23T19:11:41.028545Z",
   "chain_id": "clockend_4200-101",
-  "initial_height": "-1",
+  "initial_height": "1",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
