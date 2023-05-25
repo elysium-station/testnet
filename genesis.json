@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-05-25T13:53:31.939548353Z",
+  "genesis_time": "2023-05-25T14:23:33.098854787Z",
   "chain_id": "clockend_4200-101",
   "initial_height": "1",
   "consensus_params": {
@@ -34,7 +34,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "black1qxcem35gmjra7auaekxffzr4wajjqmqawuwxlr",
+            "address": "black1afvaev3gu90yezme3z75m0x599pata4mmuqrtl",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -54,27 +54,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "black1f7swcf6ukl68yj6ma3wtpt52r2hywy4wjd9d0q",
-            "pub_key": null,
-            "account_number": "0",
-            "sequence": "0"
-          },
-          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
-        },
-        {
-          "@type": "/ethermint.types.v1.EthAccount",
-          "base_account": {
             "address": "black1uhfpr9sjlgstetlc89tx5kf7mq8m7zw5p0m4np",
-            "pub_key": null,
-            "account_number": "0",
-            "sequence": "0"
-          },
-          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
-        },
-        {
-          "@type": "/ethermint.types.v1.EthAccount",
-          "base_account": {
-            "address": "black1ehfg24vkuurcyz8w3yaq7se4y8x8e6x8ajya6n",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -90,34 +70,7 @@
       },
       "balances": [
         {
-          "address": "black1qxcem35gmjra7auaekxffzr4wajjqmqawuwxlr",
-          "coins": [
-            {
-              "denom": "afury",
-              "amount": "20000000000000000000000"
-            }
-          ]
-        },
-        {
           "address": "black1rpsy46f5rydsls4rn8d9lulc22fajt7jg3glgx",
-          "coins": [
-            {
-              "denom": "afury",
-              "amount": "20000000000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "black1f7swcf6ukl68yj6ma3wtpt52r2hywy4wjd9d0q",
-          "coins": [
-            {
-              "denom": "afury",
-              "amount": "20000000000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "black1ehfg24vkuurcyz8w3yaq7se4y8x8e6x8ajya6n",
           "coins": [
             {
               "denom": "afury",
@@ -133,12 +86,21 @@
               "amount": "20000000000000000000000"
             }
           ]
+        },
+        {
+          "address": "black1afvaev3gu90yezme3z75m0x599pata4mmuqrtl",
+          "coins": [
+            {
+              "denom": "afury",
+              "amount": "20000000000000000000000"
+            }
+          ]
         }
       ],
       "supply": [
         {
           "denom": "afury",
-          "amount": "100000000000000000000000"
+          "amount": "60000000000000000000000"
         }
       ],
       "denom_metadata": []
@@ -234,67 +196,6 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "elysium-0",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "black1qxcem35gmjra7auaekxffzr4wajjqmqawuwxlr",
-                "validator_address": "blackvaloper1qxcem35gmjra7auaekxffzr4wajjqmqad5x9vx",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "BgaIcd7d6pGbhAhIV1rQ1n3If6XSMvui3Y+b2xp1ank="
-                },
-                "value": {
-                  "denom": "afury",
-                  "amount": "200000000000000000000"
-                }
-              }
-            ],
-            "memo": "dc9598e6f5574c94d5ff6d77fca9601c7d0141a9@34.118.138.231:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "AjHHLVxZh4J1s2JRL/3UsSSAzVI8as5drABMR9jtSSXI"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
-          },
-          "signatures": [
-            "whE13sEwMIFQmz+Kh3hey1SI2HkIu9+WknL1N+jk/nt1zj3TetFMNl0tn6IrXA6O22ewJKKDrTX1LrcCFr7f7wE="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
                   "moniker": "elysium-1",
                   "identity": "",
                   "website": "",
@@ -307,11 +208,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "black1rpsy46f5rydsls4rn8d9lulc22fajt7jg3glgx",
-                "validator_address": "blackvaloper1rpsy46f5rydsls4rn8d9lulc22fajt7jtequmr",
+                "delegator_address": "black1afvaev3gu90yezme3z75m0x599pata4mmuqrtl",
+                "validator_address": "blackvaloper1afvaev3gu90yezme3z75m0x599pata4mc5gqc6",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "dy/kW+uY6vezA2KrTbbQjbybEDFU1GxU6vbqtKgrABY="
+                  "key": "ZPjM5Sz37OZVATeyVcso/hhO5JA2icuHc2M3TvpGz8k="
                 },
                 "value": {
                   "denom": "afury",
@@ -319,7 +220,7 @@
                 }
               }
             ],
-            "memo": "13e51aead6b89d2898063c28b3cac3ee1c09ac0d@34.122.197.223:26656",
+            "memo": "a976f3906bb2d873340742341669e6178498db0b@34.118.138.231:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -329,7 +230,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "Aj4YUV9/KtlGqzDm7a3T41Q8alcj19gDduX+Tf0t6SXh"
+                  "key": "AjInCRlm4Gn62ry88h+FDYY2u/WBE71ICNqdiT5UApyA"
                 },
                 "mode_info": {
                   "single": {
@@ -347,190 +248,7 @@
             }
           },
           "signatures": [
-            "Vkq7ZrXv5Iwk4e3BPeHlvKzpwDN8a6MCLIdlxrmrXWoCFXWEz7Gu/42l9KBegjTo8ZYtCZN3YzEOQVpiioB4pgE="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "elysium-2",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "black1f7swcf6ukl68yj6ma3wtpt52r2hywy4wjd9d0q",
-                "validator_address": "blackvaloper1f7swcf6ukl68yj6ma3wtpt52r2hywy4w39dwu9",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "HQ9n+NWh2qN9tfpnz8XNTCPpqSq24ts8cYcZ5lQDFTM="
-                },
-                "value": {
-                  "denom": "afury",
-                  "amount": "200000000000000000000"
-                }
-              }
-            ],
-            "memo": "d4691221d42a8bde81d9292f60e2c98137f941d1@34.28.75.14:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "AnZ+L7ecZpJeicSRAIw4hv9deNeCg/adux0RIlE679Ma"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
-          },
-          "signatures": [
-            "Oly6Pn37UzOKBTjfxckf//7WUP9SkKmsv0P3QwuCEkM2R2CsNavk5daPSQs/5gu7oKoRIWiEo30PVY4o/cDcXAA="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "elysium-3",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "black1uhfpr9sjlgstetlc89tx5kf7mq8m7zw5p0m4np",
-                "validator_address": "blackvaloper1uhfpr9sjlgstetlc89tx5kf7mq8m7zw5z8nkqy",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "2ARws8n9MFERElm3z/s5tW/0XC2ibg4ptnqyFZHMy10="
-                },
-                "value": {
-                  "denom": "afury",
-                  "amount": "200000000000000000000"
-                }
-              }
-            ],
-            "memo": "ba3a3ac8bb719bdddd4837007d55ad19882e9e01@35.215.175.250:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "A6O6TnX+Yare/l/Izl6WcHzS/pKdeKIZkC26qlZhae9z"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
-          },
-          "signatures": [
-            "B6ATL7x1A1GaSc1XoFyJ0jCee/M6gTj5ZBIJJJkSr5pG0NA6fzyf2J7GjjuQuPwvN8K2bW093HnRvcDYCo5JMwA="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "elysium-4",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "black1ehfg24vkuurcyz8w3yaq7se4y8x8e6x8ajya6n",
-                "validator_address": "blackvaloper1ehfg24vkuurcyz8w3yaq7se4y8x8e6x876v7fk",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "WGuMpQgvRaue8+CRhNWx5MvTwtYtxDSxOtFAzO/NSM4="
-                },
-                "value": {
-                  "denom": "afury",
-                  "amount": "200000000000000000000"
-                }
-              }
-            ],
-            "memo": "d0440e60df60b505faee6e2a006bea9d19e1b6ab@34.150.28.41:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "AtiC3TGyVvWtjmxOlDwUCecghp5r1LlwJW4BUOCnOfoG"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
-          },
-          "signatures": [
-            "TPXpjl5dDmOc8ceLzRfwqNB2eiP4awuNsHSqi/ROv4gcc+0T1hPttbLl9a07u5iR0l3/g6owWrILkoF4osqqKgE="
+            "wJcWthDWxPq5/2VZhmUyW/2o71xyXfBGdzAD6qOoQqN85pVgV07NwjOSeVM6bWwYZpJmn0iNrB1S1pJqXx8ccgA="
           ]
         }
       ]
